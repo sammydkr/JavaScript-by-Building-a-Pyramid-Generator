@@ -1,0 +1,68 @@
+for (const row of rows) {
+  result = result  +  "\n" +  row ;
+}
+
+for (const row of rows) {
+  result = result  + row + "\n" ;
+}
+
+or (let i = 0; i < count; i = i + 1) {
+  rows.push(i);
+}
+
+for (let character = 0; character < count; character = character + 1) {
+  rows.push(character);
+}
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character);
+   rows.push(character.repeat(i));
+}
+
+for (let i = 0; i < count; i = i + 1) {
+  rows.push(character.repeat(i + 1 ));
+}
+
+function padRow () {
+  
+}
+
+function padRow() {
+
+}
+padRow();
+
+
+const call = padRow();
+
+function padRow() {
+
+}
+const call = padRow();
+console.log(call);
+
+function padRow() {
+return "Hello!";
+}
+
+function padRow(name) {
+  return "Hello!";
+}
+
+function padRow(name) {
+  return name;
+}
+
+const call = padRow("Sam");
+
+function addTwoNumbers(firstName, lastName) {
+  return firstName + lastName
+}
+
+const sum = addTwoNumbers(5, 10);
+console.log(sum);
+
+function padRow(name) {
+  return character + name;
+}
+
